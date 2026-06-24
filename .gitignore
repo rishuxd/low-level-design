@@ -1,4 +1,6 @@
-notification-system/target/
-notification-system/.classpath
-notification-system/.project
-notification-system/.settings/
+**/target/
+**/.classpath
+**/.project
+**/.settings/
+**/.gitignore
+*.class
