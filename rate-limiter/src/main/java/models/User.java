@@ -1,10 +1,12 @@
 package models;
 
+import enums.UserTier;
+
 public class User {
     private String id;
-    private String tier;
+    private UserTier tier;
 
-    public User(String id, String tier) {
+    public User(String id, UserTier tier) {
         this.id = id;
         this.tier = tier;
     }
@@ -13,7 +15,7 @@ public class User {
         return id;
     }
 
-    public String getUserTier() {
+    public UserTier getUserTier() {
         return tier;
     }
 }
